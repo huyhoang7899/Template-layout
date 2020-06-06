@@ -1,0 +1,50 @@
+{
+  "books": [
+    {
+      "title": "Đắc Nhân Tâm ",
+      "description": "Dale Carnegie",
+      "id": "P0bvW9E3I"
+    },
+    {
+      "title": "Lão Hạc",
+      "description": "Nam Cao",
+      "id": "GhMHmsKI1"
+    },
+    {
+      "title": "Nhà Đầu Tư Thông Minh",
+      "description": "Benjamin Graham",
+      "id": "NZkKeHO_Q"
+    }
+  ],
+  "users": [
+    {
+      "name": "Huy Hoang",
+      "age": "18",
+      "id": "ZXbr4GfW7"
+    },
+    {
+      "name": "My Phung",
+      "age": "18",
+      "id": "BkECr8OZt"
+    },
+    {
+      "name": "Quang Trung",
+      "age": "30",
+      "id": "I-BIjec5r"
+    }
+  ],
+  "transactions": [
+    {
+      "bookId": "P0bvW9E3I",
+      "userId": "ZXbr4GfW7",
+      "id": "LD5jKOsH4",
+      "isComplete": true
+    },
+    {
+      "bookId": "P0bvW9E3I",
+      "userId": "ZXbr4GfW7",
+      "id": "gaZ8Thh6V",
+      "isComplete": true
+    }
+  ]
+}

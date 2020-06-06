@@ -1,0 +1,11 @@
+extends ../../layouts/layout.pug
+
+block content
+  h1 Add new user
+
+  form(action="/users/create" method="POST")
+    label Name 
+    input(name="name" type="text") 
+    label Age 
+    input(name="age" type="number") 
+    button Add
