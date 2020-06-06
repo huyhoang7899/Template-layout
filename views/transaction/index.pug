@@ -1,0 +1,24 @@
+extends ../../layouts/layout.pug
+
+block content
+  h1 Transaction
+
+  a(href="/transactions/create") Add new transaction
+
+  ul
+    each transaction in transactions
+      li
+        b User Id:      
+        span= transaction.userId
+        span &nbsp
+        b Book Id: 
+        span= transaction.bookId 
+        span &nbsp 
+        b Complete: 
+        span= transaction.isComplete  
+        span &nbsp 
+        a(href="/transactions/" + transaction.id + "/update") Update 
+        span &nbsp
+        a(href="/transactions/" + transaction.id + "/delete") Delete 
+        form(method="POST" action='/transactions/' + transaction.id + '/complete')
+          input(type="submit" value="Hoàn Thành")
